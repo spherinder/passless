@@ -1,0 +1,215 @@
+{
+  "nodes": {
+    "crane": {
+      "locked": {
+        "lastModified": 1779130139,
+        "narHash": "sha256-BLrtr42azquO7MdGFU5a7KiMl3YpFlTeIXqy1fT5GlQ=",
+        "owner": "ipetkov",
+        "repo": "crane",
+        "rev": "edb38893982a3338972bb4a2ec7ce7c29ba10fd9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ipetkov",
+        "repo": "crane",
+        "type": "github"
+      }
+    },
+    "crane_2": {
+      "locked": {
+        "lastModified": 1779130139,
+        "narHash": "sha256-BLrtr42azquO7MdGFU5a7KiMl3YpFlTeIXqy1fT5GlQ=",
+        "owner": "ipetkov",
+        "repo": "crane",
+        "rev": "edb38893982a3338972bb4a2ec7ce7c29ba10fd9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ipetkov",
+        "repo": "crane",
+        "type": "github"
+      }
+    },
+    "fenix": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "rust-analyzer-src": "rust-analyzer-src"
+      },
+      "locked": {
+        "lastModified": 1771657407,
+        "narHash": "sha256-ZkKTcOgfy8lIkdTNpGfc01G21d5oT7xMqGT4cazFl60=",
+        "owner": "nix-community",
+        "repo": "fenix",
+        "rev": "6d86ae5186ba275b7874d02908505fc658448658",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "ref": "6d86ae5",
+        "repo": "fenix",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1771369470,
+        "narHash": "sha256-0NBlEBKkN3lufyvFegY4TYv5mCNHbi5OmBDrzihbBMQ=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "0182a361324364ae3f436a63005877674cf45efb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1779055025,
+        "narHash": "sha256-Qyys0TC4CWTxZJBRyVU0O6JSQfjfM57MmLF3Dec3Uxo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "fb524b81d973c957fa9b8c7cfacd953aec6c210a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nushell": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1779686218,
+        "narHash": "sha256-+5tiEDzQqmVlKAu0RvecjHHfge3ZLeFsUhCZ23zG5Mw=",
+        "path": "/home/spherinder/downloads/nushell-fork/nix/nushell.nix",
+        "type": "path"
+      },
+      "original": {
+        "path": "/home/spherinder/downloads/nushell-fork/nix/nushell.nix",
+        "type": "path"
+      }
+    },
+    "nushell-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1779677009,
+        "narHash": "sha256-tyGg4P3eiu50msuK1Iive9gCxqn42y0z0dkvmRDgVD4=",
+        "ref": "refs/heads/feat/auto-complete-menu",
+        "rev": "e07c045a358ef33877acdc780abc9fceca6bc98b",
+        "revCount": 11433,
+        "type": "git",
+        "url": "file:///home/spherinder/downloads/nushell-fork/nushell"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:///home/spherinder/downloads/nushell-fork/nushell"
+      }
+    },
+    "pinnedpkgs": {
+      "locked": {
+        "lastModified": 1771369470,
+        "narHash": "sha256-0NBlEBKkN3lufyvFegY4TYv5mCNHbi5OmBDrzihbBMQ=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "0182a361324364ae3f436a63005877674cf45efb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "0182a36",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "reedline-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1779688217,
+        "narHash": "sha256-TALDbuJUeNR45rsa0HomOjcZANI1Gs1qEfs8MFiY0n4=",
+        "ref": "refs/heads/feat/auto-complete-menu",
+        "rev": "e2aed9e0c3591fddf01e5414a7985ebb709f9595",
+        "revCount": 714,
+        "type": "git",
+        "url": "file:///home/spherinder/downloads/nushell-fork/reedline"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:///home/spherinder/downloads/nushell-fork/reedline"
+      }
+    },
+    "root": {
+      "inputs": {
+        "crane": "crane",
+        "fenix": [
+          "sysdots",
+          "fenix"
+        ],
+        "nixpkgs": [
+          "sysdots",
+          "nixpkgs"
+        ],
+        "sysdots": "sysdots",
+        "systems": "systems"
+      }
+    },
+    "rust-analyzer-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1771585531,
+        "narHash": "sha256-xMDlGXSLxr5F2lt7ydy3ve4rE7xFVvBx1u8OyYOXyDI=",
+        "owner": "rust-lang",
+        "repo": "rust-analyzer",
+        "rev": "46a214b5d35f2e2a02c0b278d9287b20760821eb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rust-lang",
+        "ref": "nightly",
+        "repo": "rust-analyzer",
+        "type": "github"
+      }
+    },
+    "sysdots": {
+      "inputs": {
+        "crane": "crane_2",
+        "fenix": "fenix",
+        "nixpkgs": "nixpkgs_2",
+        "nushell": "nushell",
+        "nushell-src": "nushell-src",
+        "pinnedpkgs": "pinnedpkgs",
+        "reedline-src": "reedline-src"
+      },
+      "locked": {
+        "lastModified": 1779688582,
+        "narHash": "sha256-H285Jy3/AQdRSkB6WDp/yR7lRE6op+IMN7+XdW7j7CA=",
+        "path": "/etc/nixos/sysdots",
+        "type": "path"
+      },
+      "original": {
+        "path": "/etc/nixos/sysdots",
+        "type": "path"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "id": "systems",
+        "type": "indirect"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
